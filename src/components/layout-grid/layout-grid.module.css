@@ -1,0 +1,3 @@
+.layout_grid {
+  --cols: var(--cols, 5);
+}
