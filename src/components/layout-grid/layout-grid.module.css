@@ -1,3 +1,9 @@
 .layout_grid {
-  --cols: var(--cols, 5);
+  --c: var(--cols, 5);
+  --r: var(--rows, 5);
+
+  display: grid;
+  grid-template-columns: repeat(var(--c), 1fr);
+  grid-template-rows: repeat(var(--r), 1fr);
+  pointer-events: none;
 }

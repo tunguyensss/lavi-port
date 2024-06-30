@@ -2,3 +2,14 @@
   .base_transition {
   }
 }
+
+.nav {
+  position: absolute;
+  bottom: 40px;
+  left: 24px;
+
+  display: flex;
+  gap: 24px;
+
+  pointer-events: all;
+}

@@ -1,0 +1,23 @@
+@mixin breakpoint($size) {
+  @if $size == xs {
+    @media (min-width: var(--breakpoint-xs)) {
+      @content;
+    }
+  } @else if $size == sm {
+    @media (min-width: var(--breakpoint-sm)) {
+      @content;
+    }
+  } @else if $size == md {
+    @media (min-width: var(--breakpoint-md)) {
+      @content;
+    }
+  } @else if $size == lg {
+    @media (min-width: var(--breakpoint-lg)) {
+      @content;
+    }
+  } @else if $size == xl {
+    @media (min-width: var(--breakpoint-xl)) {
+      @content;
+    }
+  }
+}

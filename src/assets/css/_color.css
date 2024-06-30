@@ -1,0 +1,26 @@
+:root {
+  /* Cinder */
+  --color-cinder-50: #f5f5fa;
+  --color-cinder-100: #d0d1e7;
+  --color-cinder-200: #d0d1e7;
+  --color-cinder-300: #a7aad2;
+  --color-cinder-400: #575da0;
+  --color-cinder-500: #444885;
+  --color-cinder-600: #383b6c;
+  --color-cinder-700: #383b6c;
+  --color-cinder-800: #31335b;
+  --color-cinder-900: #2d2e4d;
+  --color-cinder-950: #0f0f1a;
+  /* Fushsia */
+  --color-fuchsia-50: #fef3ff;
+  --color-fuchsia-100: #fde6ff;
+  --color-fuchsia-200: #fbcdff;
+  --color-fuchsia-300: #fba5ff;
+  --color-fuchsia-400: #fa70ff;
+  --color-fuchsia-500: #f13afb;
+  --color-fuchsia-600: #df1de5;
+  --color-fuchsia-700: #b812b9;
+  --color-fuchsia-800: #971196;
+  --color-fuchsia-900: #7b1478;
+  --color-fuchsia-950: #530050;
+}

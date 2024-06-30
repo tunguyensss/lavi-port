@@ -1,0 +1,19 @@
+.animate_link {
+  width: fit-content;
+  position: relative;
+
+  &::before {
+    content: "";
+    background-color: var(--color-cinder-200);
+    bottom: -16px;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 0;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover::before {
+    width: 100%;
+  }
+}
