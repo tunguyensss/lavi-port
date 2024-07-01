@@ -1,6 +1,7 @@
 .animate_link {
   width: fit-content;
   position: relative;
+  text-decoration: none;
 
   &::before {
     content: "";
