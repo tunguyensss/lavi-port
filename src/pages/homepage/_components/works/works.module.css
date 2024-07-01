@@ -1,0 +1,15 @@
+.works {
+  .section {
+    width: 100%;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.work_item {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
