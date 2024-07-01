@@ -5,8 +5,7 @@ import App from "./App.tsx";
 import "./assets/css/_mixin.css";
 import "./assets/css/_color.css";
 import "./assets/css/_easing.css";
-
-import "./assets/css/_mixin.css";
+import "./assets/css/_font.css";
 
 import "./globals.css";
 

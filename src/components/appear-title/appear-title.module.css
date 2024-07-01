@@ -1,4 +1,6 @@
 .title {
+  font-family: var(--font-esko);
+
   .line {
     display: inline-block;
     overflow: hidden;
@@ -8,9 +10,13 @@
     }
   }
 
+  .char {
+    font-family: inherit;
+  }
+
   &.visible {
     .line > * {
-      transition: 3s var(--ease-out-expo) transform;
+      transition: 1.2s var(--ease-out-expo) transform;
       transition-delay: calc(200ms * var(--i));
     }
   }

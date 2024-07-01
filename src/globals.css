@@ -11,6 +11,22 @@ body {
   background-color: var(--color-cinder-950);
 }
 
+/* FontFace */
+@font-face {
+  font-family: "walter";
+  src: url(./assets/fonts/water.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "esko";
+  src: url(./assets/fonts/esko.ttf);
+}
+
+@font-face {
+  font-family: "gridular";
+  src: url(./assets/fonts/gridular.otf) format("opentype");
+}
+
 /* Lenis Scroll */
 html.lenis,
 html.lenis body {

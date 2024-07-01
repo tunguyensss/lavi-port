@@ -1,7 +1,9 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import AppLayout from "./layout/app-layout";
 import CaseStudyPage from "./pages/case-study";
+import ContactPage from "./pages/contact/page";
 import Homepage from "./pages/homepage";
+import NotFound from "./pages/not-found/page";
 
 const router = createBrowserRouter([
   {
@@ -17,8 +19,12 @@ const router = createBrowserRouter([
         element: <CaseStudyPage />,
       },
       {
+        path: "contact",
+        element: <ContactPage />,
+      },
+      {
         path: "*",
-        element: <h1>404</h1>,
+        element: <NotFound />,
       },
     ],
   },

@@ -32,6 +32,7 @@ export default function AppearTitle({
     if (!isMobile && el.current) {
       const splittedText = new SplitType(el.current, {
         lineClass: classes.line,
+        charClass: classes.char,
       });
 
       splittedText.lines?.forEach((line, i) => {
